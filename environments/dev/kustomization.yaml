@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:e608808385070c3c5ff9375dd684f7d9278fa68e39c08158550d2d936d60f59b
+- digest: sha256:38bf715df4008063e2ba8bfa9a264de141c386af66da6f6d1465e761f9de695c
   name: quay.io/nandahein/dotnetcore
   newName: quay.io/nandahein/dotnetcore
 - digest: sha256:ed7164b840f398122175ec730d5499160412209b322f7b8a09fc71a09b25e0ec
